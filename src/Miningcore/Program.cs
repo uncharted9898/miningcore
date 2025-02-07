@@ -825,6 +825,9 @@ public class Program : BackgroundService
         // Configure RandomXEQ
         RandomXEQ.messageBus = messageBus;
 
+        // Configure Panthera
+        Panthera.messageBus = messageBus;
+
         // Configure NexaPow
         Miningcore.Crypto.Hashing.Algorithms.NexaPow.messageBus = messageBus;
         
